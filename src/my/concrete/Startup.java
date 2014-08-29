@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package my.concrete;
 
@@ -14,11 +9,18 @@ public class Startup {
     
     public static void main(String[] args) {
         
-   HourlyEmployee emp1 = new HourlyEmployee("Bruce Willis", "123456", "262-968-6900");
+    HourlyEmployee emp1 = new HourlyEmployee("Bruce Willis", "13456", 
+            "262-968-6900");
     
-    System.out.println("work");
-
-     
+//sets the class specific property
+    emp1.setAvgWorkHours(20);
+    
+    System.out.println("The employee number " + emp1.getEmpNumber());
+    System.out.println(emp1.getEmpName() + " can be reached at " + 
+            emp1.getEmpContactNum());
+    
+//grabs the overridden method
     emp1.earningMethod();
+    System.out.println("Average hours worked: " + emp1.getAvgWorkHours());
     }
 }

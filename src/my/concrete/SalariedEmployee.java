@@ -1,9 +1,16 @@
 package my.concrete;
 
-/**
- *
- * @author Daniel
- */
-public class SalariedEmployee {
+
+public class SalariedEmployee extends Employee {
+
+    public SalariedEmployee(String empName, String empNumber, String empContactNum) {
+        super(empName, empNumber, empContactNum);
+    }
+    
+    
+    
+    
+    
+    
     
 }

@@ -46,7 +46,8 @@ public class Employee {
     public void setEmpContactNum(String empContactNum) {
         
         //validates that the contact number is a valid united states phone number
-        if(empContactNum.length() != 10){
+        //includes the dashes for now
+        if(empContactNum.length() != 12){
             System.out.println("Please enter a valid phone number");
         }
         

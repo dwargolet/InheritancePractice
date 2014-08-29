@@ -8,6 +8,10 @@ public class SalariedEmployee extends Employee {
     }
     
     
+    @Override
+    public void earningMethod(){
+        System.out.println("is paid by salary.");
+    }
     
     
     

@@ -1,23 +1,24 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
 package my.concrete;
 
+/**
+ *
+ * @author Daniel
+ */
 public class Startup {
     
-   public static void main(String[] args){
-    
-   // HourlyEmployee emp1 = new HourlyEmployee("Bruce Willis", "123456", "262-968-6900");
-    
-    /*HourlyEmployee emp1 = new HourlyEmployee();
-     emp1.setEmpName("Bruce Willis");
-     emp1.setEmpNum("123456");
-     emp1.setEmpContactNum("262-968-6900");
+    public static void main(String[] args) {
         
-        */
+   HourlyEmployee emp1 = new HourlyEmployee("Bruce Willis", "123456", "262-968-6900");
     
-    
-    System.out.print("work");
-    
-    
+    System.out.println("work");
+
+     
+    emp1.earningMethod();
     }
-    
-    
 }

@@ -32,10 +32,10 @@ public class Employee {
     public void setEmpNumber(String empNumber) {
         
         //validates that the id adheres to the fictitious company standard
-        if(empNumber.length() != 6){
+       /* if(empNumber.length() != 6){
             System.out.println("Employee ID must be 6 characters long");
         }
-        
+        */
         this.empNumber = empNumber;
     }
 
@@ -47,10 +47,10 @@ public class Employee {
         
         //validates that the contact number is a valid united states phone number
         //includes the dashes for now
-        if(empContactNum.length() != 12){
+       /* if(empContactNum.length() != 12){
             System.out.println("Please enter a valid phone number");
         }
-        
+        */
         this.empContactNum = empContactNum;
     }
     

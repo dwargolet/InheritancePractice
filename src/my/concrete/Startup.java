@@ -33,5 +33,20 @@ public class Startup {
     sEmp.setYearlySalary(55);
     sEmp.yearlyEarnings();
     
+    System.out.println(" ");
+    System.out.println("-Salaried Employee + Commission Data-");
+    
+    SalaryPlusCommissionEmployee empSalCom = new SalaryPlusCommissionEmployee
+        ("Sherlock Holmes", "85206", "800-141-5443");
+    
+    empSalCom.generateReport();
+    empSalCom.employeePartorFull();
+    empSalCom.earningMethod();
+    empSalCom.setYearlySalary(60);
+    empSalCom.yearlyEarnings();
+    empSalCom.setCommissionPercent(5);
+    empSalCom.empComissionPercent();
+    
+    
     }
 }

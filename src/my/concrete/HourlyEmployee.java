@@ -4,7 +4,7 @@ package my.concrete;
 public class HourlyEmployee extends Employee {
 
     private int avgWorkHours;
-    
+//properties     
     public HourlyEmployee(String empName, String empNumber, String empContactNum) {
         super (empName, empNumber, empContactNum);
     }

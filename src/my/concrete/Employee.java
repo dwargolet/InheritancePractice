@@ -17,6 +17,11 @@ public class Employee {
         System.out.println("You work for free");
     }
     
+    public void generateReport(){
+        System.out.println("Employee number: " + empNumber);
+        System.out.println(empName + " can be reached at "  + empContactNum);
+    }
+    
     public String getEmpName() {
         return empName;
     }
@@ -41,8 +46,5 @@ public class Employee {
         this.empContactNum = empContactNum;
     }
     
-    
-    
-    
-    
+  
 }

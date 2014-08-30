@@ -1,4 +1,3 @@
-
 package my.concrete;
 
 /**
@@ -14,10 +13,9 @@ public class Startup {
     
     
     emp1.generateReport();
-    
+    emp1.employeePartorFull();
 //sets the class specific property
     emp1.setAvgWorkHours(20);
-
     
 //grabs the overridden method
     emp1.earningMethod();

@@ -22,6 +22,10 @@ public class Employee {
         System.out.println(empName + " can be reached at "  + empContactNum);
     }
     
+    public void employeePartorFull(){
+        System.out.println("This employee is full time");
+    }
+    
     public String getEmpName() {
         return empName;
     }

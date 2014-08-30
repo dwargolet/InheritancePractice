@@ -1,6 +1,5 @@
 package my.concrete;
 
-
 public class SalariedEmployee extends Employee {
 
 //for this purporse, thousand is assumed, only entering 50, 40 ect..    
@@ -18,8 +17,7 @@ public class SalariedEmployee extends Employee {
         this.yearlySalary = yearlySalary;
     }
     
-    
-    public void yearlySalary(){
+    public void yearlyEarnings(){
         System.out.println("Yearly Salary: " + yearlySalary + "k a year.");
     }
     
@@ -33,6 +31,5 @@ public class SalariedEmployee extends Employee {
         System.out.println("The employee is full time");
     }
     
-    
-    
+        
 }

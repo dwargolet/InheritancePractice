@@ -18,6 +18,7 @@ public class Employee {
     }
     
     public void generateReport(){
+        System.out.println(" ");
         System.out.println("Employee number: " + empNumber);
         System.out.println(empName + " can be reached at "  + empContactNum);
     }

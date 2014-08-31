@@ -2,7 +2,7 @@ package my.concrete;
 
 public class SalariedEmployee extends Employee {
 
-//for this purporse, thousand is assumed, only entering 50, 40 ect..    
+    //for this purporse, thousand is assumed, only entering 50, 40 ect..    
     private int yearlySalary;
     
     public SalariedEmployee(String empName, String empNumber, String empContactNum) {

@@ -18,8 +18,29 @@ public class Startup {
         System.out.println(" ");    
         System.out.println("-Salaried Employee Data-");
         
-        
-        
+        SalariedEmployee sEmp = new SalariedEmployee("Dave Chappelle", "48320", 
+                "262-968-5335"){};
+
+
+        sEmp.generateReport();
+        sEmp.employeePartorFull();
+        sEmp.earningMethod();
+        sEmp.setYearlySalary(80);
+        sEmp.yearlyEarnings();
+
+        System.out.println(" ");
+        System.out.println("-Salaried Employee + Commission Data-");     
+
+        SalaryPlusCommissionEmployee empSalCom = new SalaryPlusCommissionEmployee
+            ("Eddy Murphy", "68234", "800-472-7833");
+
+        empSalCom.generateReport();
+        empSalCom.employeePartorFull();
+        empSalCom.earningMethod();
+        empSalCom.setYearlySalary(42);
+        empSalCom.yearlyEarnings();
+        empSalCom.setCommissionPercent(9);
+        empSalCom.empComissionPercent();
         
     }
 }
